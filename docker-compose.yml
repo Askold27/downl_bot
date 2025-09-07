@@ -1,0 +1,11 @@
+services:
+  worker:
+    build: .
+    environment:
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - RAPIDAPI_KEY=${RAPIDAPI_KEY}
+      - CHANNEL_URL=${CHANNEL_URL}
+      - BOT_URL=${BOT_URL}
+      - WORKERS=${WORKERS}
