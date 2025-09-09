@@ -1,0 +1,17 @@
+# Секретные файлы
+.env
+__pycache__/
+*.pyc
+
+# Docker
+Dockerfile.*
+docker-compose.yml
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
