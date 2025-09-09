@@ -1,0 +1,10 @@
+run = "python main.py"
+language = "python3"
+env = {
+  BOT_TOKEN = "YOUR_BOT_TOKEN",
+  API_ID = "YOUR_API_ID",
+  API_HASH = "YOUR_API_HASH",
+  CHANNEL_URL = "https://t.me/JayBeeBots",
+  BOT_URL = "ytiv_bot",
+  WORKERS = "4"
+}
